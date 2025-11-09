@@ -1,0 +1,121 @@
+
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f0f8ff; /* Fundo azul claro */
+    color: #333; /* Cor do texto principal */
+}
+
+/* Container principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff; /* Fundo branco */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+a:hover {
+
+    color: #d1d5db; /* Tom de azul mais escuro ao passar o mouse */
+}
+ul {
+    padding-left: 20px;
+    list-style: disc; /* Estilo padrão de lista */
+}
+
+/* Itens da lista */
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    background: #0066cc; /* Azul escuro */
+    color: white;
+    padding: 15px 0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilos dos títulos */
+h1, h2 {
+    color: #0a0e12; /* Azul escuro */
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+
+/* Parágrafos */
+p {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Links */
+a {
+    color: #0056b3; /* Azul intermediário */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+a:hover {
+    color: #d1d5db; /* Azul mais escuro */
+}
+
+/* Seções com contêiner */
+.section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9; /* Fundo cinza claro */
+    border-radius: 8px;
+    border: 1px solid #cce7ff; /* Borda azul claro */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o QR Code */
+.qrcode img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 2px solid #6a5acd; /* Bordas lilás */
+    max-width: 200px;
+    height: auto;
+}
+
+/* Estilo para frase */
+.frase {
+    font-size: 1.6em;
+    color: #6a5acd; /* Lilás */
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background: #0066cc; /* Azul escuro */
+    color: white;
+    padding: 10px 0;
+    border-radius: 8px;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+

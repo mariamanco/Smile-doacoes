@@ -1,0 +1,208 @@
+button {
+    background: linear-gradient(135deg, #6a5acd, #4b79a1); /* Gradiente lilás para azul */
+    color: white; /* Cor do texto */
+    padding: 12px 25px; /* Espaçamento interno */
+    font-size: 1.2em; /* Tamanho do texto */
+    font-weight: bold; /* Texto em negrito */
+    border: 2px solid transparent; /* Borda invisível inicialmente */
+    border-radius: 25px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor tipo mãozinha */
+    transition: all 0.3s ease; /* Suaviza as mudanças */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra no botão */
+}
+
+button:hover {
+    background: linear-gradient(135deg, #4b79a1, #6a5acd); /* Invertemos o gradiente */
+    border-color: #6a5acd; /* Aparece uma borda lilás */
+    transform: scale(1.05); /* Aumenta ligeiramente o botão */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Sombra mais intensa */
+}
+
+
+
+/* Reset básico */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Cinza claro para fundo */
+    color: #333; /* Texto em cinza escuro */
+    line-height: 1.6;
+    padding: 0;
+}
+
+
+/* Cabeçalho */
+header {
+    h1{
+        color: #f4f4f4;
+    }
+    background-color: #00695c; /* Verde azulado */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header a {
+    color: #ffffff; /* Texto branco */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+h1{
+    font-weight:arial;
+    text-align: center;
+}
+
+
+
+/* Título */
+#titulo {
+    background-color: #009688; /* Verde azulado mais claro */
+    color: #ffffff; /* Branco */
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Texto principal */
+.container {
+    max-width: 900px;
+    background-color: #ffffff; /* Fundo branco */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #00796b; /* Verde escuro */
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Links internos */
+a {
+    color: #00796b; /* Verde escuro */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Reset básico */
+body, h1, h2, p, a, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Fundo cinza claro */
+    color: #333; /* Texto cinza escuro */
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #00695c; /* Verde azulado escuro */
+    padding: 15px 0;
+    text-align: center;
+}
+
+header a {
+    color: #ffffff; /* Branco */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Título */
+#titulo {
+    background-color: #009688; /* Verde azulado */
+    color: #ffffff; /* Branco */
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* Conteúdo principal */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #ffffff; /* Fundo branco */
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #00796b; /* Verde mais escuro */
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+/* Links */
+a {
+    color: #00796b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,68 @@
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: #f0f8ff; /* Azul claro para o fundo */
+    color: #333; /* Cor do texto principal */
+}
+
+/* Cabeçalho e rodapé */
+header, footer {
+    text-align: center;
+    background: #0066cc; /* Azul mais escuro */
+    color: white; /* Texto em branco */
+    padding: 15px 0;
+    border-radius: 8px; /* Bordas arredondadas */
+    margin-bottom: 20px;
+}
+
+/* Estilos dos títulos */
+h1, h2, h3 {
+    color: #0a0e12; /* Azul escuro para títulos */
+}
+
+/* Parágrafos */
+p {
+    margin-bottom: 15px;
+    color: #333; /* Mantendo texto legível */
+}
+
+/* Links */
+a {
+    color: #0056b3; /* Azul intermediário para links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+
+    color: #d1d5db; /* Tom de azul mais escuro ao passar o mouse */
+}
+
+/* Listas */
+ul {
+    padding-left: 20px;
+    list-style: disc; /* Estilo padrão de lista */
+}
+
+/* Itens da lista */
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Fundo da página principal */
+main {
+    background: white; /* Fundo branco para contraste */
+    padding: 20px;
+    border: 1px solid #cce7ff; /* Borda azul claro */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+}
+
+/* Estilo do rodapé */
+footer {
+    font-size: 0.9em;
+    border-top: 2px solid #004080; /* Linha superior azul */
+    padding-top: 10px;
+}
